@@ -4,7 +4,7 @@ layout: default
 
 Welcome to my Cybersecurity journey. As someone who strives to become a better proffessional everyday. I invite you to join me as I document what I have been doing and how I did it.
 
-[Link to another page](./another-page.html).
+[Link to another page](./blog.md).
 
 There should be whitespace between paragraphs.
 
