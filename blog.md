@@ -18,25 +18,25 @@ For this lab, we are setting up Wazuh SIEM and XDR and using to ingest logs from
 Unfortunately, I have not been able to include Active response from Wazuh.
 
 
-### Firewall
+## Firewall
 
 I setup it up to have an IP address of 10.200.200.254 with a 24 subnet range. I then accessed the firewall GUI using the IP address in a browser. 
 
 The firewall will have all traffic routed from the other VMs through it to to the internet.
 
-### Wazuh
+## Wazuh
 
 Using a new Ubuntu VM, I set the IP to be 10.200.200.26 and a 10.200.200.254 gateway with Google DNS. Afterwards, I install Wazuh Manager on the machine, and accessed the web gui using the IP 10.200.200.26.
 
 Wazuh manager will collect the logs from the Windows 10 machine to send it to Shuffle.
 
-### Windows 10 Host
+## Windows 10 Host
 
 I installed a Windows 10 VM machine to isntall the Wazuh agent that will collect the logs as I will simulate an attack on this machine. I set the IP address as 10.200.200.21.
 
 This machine will be the target of a simulated attack so that we can create a simulated alert and ticket using the Shuffle workflow.
 
-### TheHive
+## TheHive
 
 In another new Ubuntu VM, we set up the IP to be 10.200.200.27 and 10.200.200.254 gateway and Google DNS. Afterwards, I installed multiple dependencies that are needed for TheHive to work. I then  installed TheHive.
 
@@ -44,7 +44,7 @@ This part here took me a while to get it right and I had to create multiple VMs 
 
 TheHive will simulate a ticket being created once an alert is triggered from Wazuh.
 
-### Shuffle
+## Shuffle
 
 This is the trickiest one. Originally I used the cloud Shuffle to create the workflow. This didn't work as I wasn't able to connect it to my VMs. So I had to install another Ubuntu VM instance where I learned how to use Docker to install Shuffle that is only available in docker.
 
