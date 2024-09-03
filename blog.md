@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Wazuh SOC Lab
+### Wazuh SOC Lab
 
 In this blog, I will walk you through on how I created a Wazuh SOC lab on a VM with OPNsense firewall and how you can do so too.
 
@@ -52,7 +52,7 @@ The VM had the IP 10.200.200.30. To test Shuffle, I accessed the web GUI using 1
 
 Shuffle will be used to create a workflow that will connect all of these VMs together.
 
-## Problems I faced
+### Problems I faced
 
 This lab was meant to be done mainly in the cloud but I decided to build everything myself on VMs because I wanted to learn how to route all my traffic through the firewall and have it all work together in sync.
 
