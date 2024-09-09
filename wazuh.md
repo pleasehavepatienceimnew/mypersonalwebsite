@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+09/09/2024
 
 ### Wazuh SOC Lab
 
