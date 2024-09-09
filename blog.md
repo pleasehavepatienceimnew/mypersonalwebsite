@@ -2,6 +2,13 @@
 layout: default
 ---
 
+The objective of this lab is to be able to configure a secure SOC environment behind a firewall and to be automate alert and ticket generation.
+
+This is the Lab diagram:
+![Branching](https://github.com/pleasehavepatienceimnew/pleasehavepatienceimnew.github.io/blob/main/labdiagram.jpg)
+
+
+
 
 ### Wazuh SOC Lab
 
