@@ -5,7 +5,7 @@ layout: default
 The objective of this lab is to be able to configure a secure SOC environment behind a firewall and to be automate alert and ticket generation.
 
 This is the Lab diagram:
-![Labdiagram](https://github.com/pleasehavepatienceimnew/pleasehavepatienceimnew.github.io/blob/fa56c26db03bc9b9aa3fd0368cc79e4a7cbf5c88/labdiagram.jpg)
+![Labdiagram](pleasehavepatienceimnew.github.io/blob/main/labdiagram.jpg)
 
 
 
