@@ -7,8 +7,8 @@ layout: default
 
 The objective of this lab is  to configure a secure SOC environment behind a firewall and to automate alert and ticket generation through the use of open-source Security tools.
 
-This is the Lab logical diagram diagram:
-![Labdiagram](labdiagram.jpg)
+This is the Lab logical diagram:
+![Labdiagram](Diagrams/wazuhlabdiagram.jpg)
 
 
 To make this work I had a list of tools I had to use.
