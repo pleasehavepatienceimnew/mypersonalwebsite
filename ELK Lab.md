@@ -20,9 +20,7 @@ Diagram outlining how everything will be connected and how it will work.
 
 I created a VPC 2.0 Network on Vultr. Region set as Sydney. Network address I used the IP 172.31.0.0 with a prefix of 24
 
-Select Ubuntu 22.04 LTS image with 80GB option. 
-
-Hostname was named ELK-SOCLab.
+Created a host amd selected Ubuntu 22.04 LTS image with 80GB option named ELK-SOCLab. 
 
 Downloaded deb x86_64 version of elasticsearch
 
@@ -226,8 +224,6 @@ http://107.191.57.125/osticket/upload/scp
 
 
 Created API key with 172.31.0.3 VPC IP address
-
-API Key: CA92B3E090EBC2041DBFC423617CA8D1
 
 Added the API key as a connector as a webhook for using the 172.31.0.5 VPC IP Address for more security.
 
