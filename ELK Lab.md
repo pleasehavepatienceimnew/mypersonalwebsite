@@ -7,7 +7,8 @@ ELK SOC Lab
 
 This SOC Lab will be follow a diagram that is attached below. I will be setting up an ELK stack SOC Lab on the cloud VM provider Vultr to simulate the implementation and configuration of SIEM in Virtual Private Cloud. I will also simulate a brute force attack using Mythic C2 and will create alerts and dashboards to detect successful brute force attacks and the C2 application.
 
-
+This is the Lab logical diagram:
+![Labdiagram](Diagrams/ELKlabdiagram.jpg)
 
 ## Elasticsearch Server Configuration
 
@@ -177,7 +178,8 @@ By opening a python http server, we can Invoke a web request to download the C2 
 
 I run the C2 Mythic and establish connection with the Mythic Server.
 
-
+This is the Lab logical diagram:
+![Labdiagram](Diagrams/Attack Diagram.jpg)
 
 ## osTicket Setup
 

@@ -10,3 +10,8 @@ Welcome to my Cybersecurity journey. As someone who strives to become a better p
 Wazuh SOC Lab Documentation.
 
 [Wazuh SOC Lab](./wazuh.md)
+
+
+ELK SOC Lab Documentation.
+
+[ELK SOC Lab](./ELK Lab.md)
