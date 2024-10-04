@@ -90,6 +90,3 @@ This is the Attack diagram:
 - Created an API key on the osTicket server and integrated it with ELK using a webhook for secure communication.
 - Used this setup to automatically generate tickets in osTicket based on security alerts triggered in the ELK stack.
 
----
-
-This detailed SOC lab demonstrates how to set up and configure an ELK-based SIEM for detecting and responding to security threats. It also covers integrating additional services like osTicket for automated ticketing, giving a comprehensive simulation of real-world SOC operations.
