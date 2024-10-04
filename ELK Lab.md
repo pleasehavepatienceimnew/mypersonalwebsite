@@ -65,6 +65,9 @@ This is the Lab logical diagram:
 ### Mythic Server Deployment:
 - Deployed a new Ubuntu VM on Vultr named `ELKSOCLab-Mythic` and installed Mythic C2 using Docker.
 
+This is the Attack diagram:
+![Labdiagram](Diagrams/Attack Diagram.jpg)
+
 ### Mythic Agent Configuration:
 - Created an **Apollo Mythic agent** with an HTTP profile, enabling all commands. The agent was configured to call back to the Mythic Server, simulating a compromised Windows system.
 - Named the agent `svchost.exe` to blend in with legitimate processes on the target system.
