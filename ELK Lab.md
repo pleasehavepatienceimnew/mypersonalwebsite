@@ -6,6 +6,10 @@ layout: default
 
 In this lab, I set up an ELK stack (Elasticsearch, Logstash, Kibana) SOC on Vultr to simulate the implementation and configuration of a Security Information and Event Management (SIEM) system within a Virtual Private Cloud (VPC). The project included configuring various systems, simulating a brute force attack using Mythic C2, and creating custom dashboards for alerting and monitoring security events. Below is a detailed step-by-step breakdown of the lab configuration.
 
+This is the Lab logical diagram:
+![Labdiagram](Diagrams/ELKlabdiagram.jpg)
+
+
 ## 1. VPC and Elasticsearch Server Configuration:
 ### VPC Setup:
 - Created a VPC 2.0 network on Vultr in the Sydney region with the network address `172.31.0.0/24`.
