@@ -3,7 +3,7 @@ layout: default
 ---
 09/09/2024
 
-# Wazuh SOC Lab: Building an Automated SOC Environment
+# Wazuh SOC Automation Lab: Building an Automated SOC Environment
 
 The objective of this lab is to configure a secure SOC environment behind a firewall and automate alert and ticket generation using open-source security tools.
 
