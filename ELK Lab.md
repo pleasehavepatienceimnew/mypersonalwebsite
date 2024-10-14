@@ -66,6 +66,7 @@ This is the Lab logical diagram:
 - Deployed a new Ubuntu VM on Vultr named `ELKSOCLab-Mythic` and installed Mythic C2 using Docker.
 
 This is the Attack diagram:
+
 ![Labdiagram](Diagrams/Attack Diagram.jpg)
 
 ### Mythic Agent Configuration:
